@@ -10,7 +10,9 @@ public class Programa {
 		
 		VendedorDao vendeDao = FabricaDao.criarVendedorDao();
 		
-		Vendedor vend = vendeDao.findById(4);
+		
+		System.out.println("==== TESTE 1: seller findById ==== ");
+		Vendedor vend = vendeDao.findById(3);
 	
 		System.out.println(vend);
 
